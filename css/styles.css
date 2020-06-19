@@ -35,3 +35,13 @@ ul {
   letter-spacing: 0.06em;
   background-color: var(--acent-text-color);
 }
+
+.image-section .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
