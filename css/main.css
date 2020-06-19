@@ -23,11 +23,8 @@ ul {
 .site-nav .link.current {
   color: var(--acent-text-color);
 }
-.link:hover,
-.link:focus {
-  color: var(--acent-text-color);
-}
-.site-nav .logo-web {
+
+.site-nav.logo-web {
   color: var(--acent-text-color);
   font-family: Raleway;
   font-style: normal;
@@ -45,7 +42,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-.site-nav .adress {
+.site-nav .address {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -54,7 +51,44 @@ ul {
   color: var(--secondary-text-color);
   text-decoration: none;
 }
-.adress:hover,
-.adress:focus {
+
+/* FOOTER */
+.footer {
+  background-color: #2f303a;
+}
+.footer .logo-stud {
+  color: var(--primary-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.footer .text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.footer .address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--acent-text-color);
+}
+.address:hover,
+.address:focus {
   color: var(--acent-text-color);
 }
