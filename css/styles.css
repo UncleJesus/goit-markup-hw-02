@@ -8,3 +8,30 @@
 ul {
   list-style-type: none;
 }
+
+/* Hero */
+
+.hero .title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  color: var(--primary-text-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background-color: var(--secondary-text-color);
+}
+
+.hero .button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--primary-text-color);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--acent-text-color);
+}

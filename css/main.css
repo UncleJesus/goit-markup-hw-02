@@ -9,11 +9,13 @@ body {
   --secondary-text-color: #757575;
   --title-text-color: #212121;
 }
-
+a {
+  text-decoration: none;
+}
 ul {
   list-style-type: none;
 }
-
+/* SITE NAV */
 .site-nav .link {
   color: var(--title-text-color);
   text-decoration: none;
