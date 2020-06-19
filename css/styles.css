@@ -107,3 +107,12 @@ ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+.ourclients-section .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
