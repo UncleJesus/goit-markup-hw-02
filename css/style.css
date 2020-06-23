@@ -228,3 +228,46 @@ a {
   border-color: #2196f3;
   color: #ffffff;
 }
+
+/* PORTFOLIO CSS */
+.section__filter .filter__btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+  border-style: solid;
+  border-color: #757575;
+}
+.filter__btn:hover,
+.filter__btn:focus {
+  color: #2196f3;
+}
+.section__blocks .block__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.section__blocks .block__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section__blocks .block__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
