@@ -1,0 +1,46 @@
+/* ПОЛИТРА ЦВЕТОВ
+color: #2196f3;
+color: #000000;
+color: #757575;
+color: #ffffff;
+background: rgba(47, 48, 58, 0.8); */
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* БЛОК НАВИГАЦИИ */
+.nav__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.nav__link:hover,
+.nav__link:focus {
+  color: #2196f3;
+}
+.nav__items .nav__link.current {
+  color: #2196f3;
+}
+
+.list__item-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
